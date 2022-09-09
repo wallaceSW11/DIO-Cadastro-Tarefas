@@ -1,3 +1,5 @@
-dotnet-ef migration add CriacaoTabelaTarefa
+dotnet tool install --global dotnet-ef
+
+dotnet-ef migrations add CriacaoTabelaTarefa
 
 dotnet-ef database update
